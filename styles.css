@@ -8,11 +8,18 @@ body {
 .top-bar {
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--thirtiary-color);
-    height: 80px;
+    height: 80px; /* Default height for larger screens */
+
+    /* Media query for smaller screens */
+    @media (max-width: 600px) {
+        height: 120px; /* Adjust the height for smaller screens */
+    }
 }
 
 .icon-buttons {
