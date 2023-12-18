@@ -14,12 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--thirtiary-color);
-    height: 80px; /* Default height for larger screens */
-
-    /* Media query for smaller screens */
-    @media (max-width: 600px) {
-        height: 120px; /* Adjust the height for smaller screens */
-    }
+    height: var(--barHeight);
 }
 
 .icon-buttons {
