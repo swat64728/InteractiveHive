@@ -6,12 +6,13 @@ body {
 }
 
 .top-bar {
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--thirtiary-color);
     height: 80px;
-    border-radius: 45px;
 }
 
 .icon-buttons {
